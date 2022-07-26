@@ -1,0 +1,23 @@
+
+<section class="grid-center padded body-bg">
+  <h2 class="col-12 centered">{{item.heading}}</h2>
+  <div class="blog-loop blog-masonry">
+      {% for post in site.posts limit:3 %}
+        <div class="masonry-item padded">
+            <a class=" " href="{{post.url}}">
+              <div class=" hover-container window " style="background-image:url('{{post.video_image}}')">
+                <div class="hover-overlay">
+                </div>
+              </div>
+              <div class="white-bg centered grid-center box-shadow padded">
+                <h4 class="border-bottom col-9"> {{post.title}} </h4>
+                <p class="col-12">{{post.blog-summary}}</p>
+                <p class="featured-text col-12">{{post.cta}}</p>
+              </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div><img class="cute-icon" src="{{item.cute-icon_image}}" alt="{{item.cute-icon-image-alt}}"></div>   
+</section>

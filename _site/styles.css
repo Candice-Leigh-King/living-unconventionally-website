@@ -3,6 +3,7 @@
 Colors
 #171F18 - black
 #748672 - light green
+#B9C5B9 - lighter green
 #2F3E39 - dark green 
 #E8EFEB - green-white
 #FFF    - white
@@ -51,13 +52,22 @@ END */
    .centered {  text-align: center;   }
  
    .padded   {  padding: 5%;    }
-   .padded-1 {  padding: 1rem;  }
-   .padded-2 {  padding: 2rem;  }
+   .padded-1 {  padding: 5% 5% 0% 5%;  }
+   .padded-2 {  padding: 2%;  }
    .padded-grid {padding: 25% 0% 25% 0%;}
+   .padded-bottom {padding-bottom: 5%;}
+   .padded-sides {padding: 0% 5%;}
+   .padded-left {padding-left: 5%;}
+
+   .margin-top {margin-top: 7.8%;}
+
+   .border-bottom {border-bottom: #171F18 1px solid;}
 
    .dark-bg      {  background-color: #2F3E39;     }
    .light-bg     {  background-color: #748672;  }
    .body-bg  {  background-color: #E8EFEB;       }
+   .lighter-bg {background-color: #B9C5B9;}
+   .white-bg {background-color: #FFF;}
    .transparent-bg {background-color: transparent;}
  
    .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
@@ -65,16 +75,18 @@ END */
    /* FONTS   */
    h1 
    {
-    font: 3rem;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+    font-weight: 100;
+    font-family: 'Big Shoulders Text', cursive;
     color: #E8EFEB;
     text-shadow: 4px 4px 5px rgb(0 0 0 / 50%);
    }
 
    h2
    {
+    font-weight: 100;
     font-family: moontime;
-    font: 2.3rem;
+    font-size: 5rem;
     color: #2F3E39;
    }
 
@@ -82,7 +94,7 @@ END */
    {
     font-family: moontime;
     color: #748672;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 100;
    }
 
@@ -90,21 +102,23 @@ END */
    {
     font-family: 'Big Shoulders Text', cursive;
     color: #2F3E39;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 100;
    }
 
    h5
    {
+    font-size: 1.2rem;
     font-family: 'Big Shoulders Text', cursive;
-    font-weight: bold;
     color: #171F18;
    }
 
    h6
    {
     font-family: moontime;
+    font-weight: 100;
     color: #E8EFEB;
-    font-size: 1rem;
+    font-size: 2rem;
    }
 
    p
@@ -114,7 +128,31 @@ END */
     font-size: 1rem;
    }
 
-   a {text-decoration: none;}
+   a {
+    text-decoration: none;
+    color: inherit;
+    }
+   a:hover {color: #748672;} 
+
+   .text-4rem {font-size: 4rem;}
+   .text-6rem {font-size: 6rem;}
+
+   .categories 
+   {
+    font-size: 1.5rem;
+    color:#2F3E39
+   }
+
+   .dot .categories {color: #E8EFEB;}
+
+   .read-more 
+   {
+    font-size: 1.5rem;
+    font-family: 'Big Shoulders Text', cursive;
+    }
+
+
+  
 
    .grid-grid .iconify 
    {
@@ -135,7 +173,7 @@ END */
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-    color: inherit;
+    color: #FFF;
    }
 
    
@@ -161,9 +199,10 @@ END */
 
     nav a:hover 
     {
-     text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
-     color: white;
+     color: #2F3E39;
     }
+
+    .dark-text {color: #2F3E39;}
     
 
    /* HEADER  */
@@ -176,7 +215,7 @@ END */
     right:0;
     z-index: 2;
     margin:0;
-    padding: 1%;
+    padding: 1% 1% 0%;
     text-align: center;
   }
 
@@ -219,6 +258,63 @@ END */
     display: block;
     text-decoration: none;
     }
+
+/* BANNERS */
+
+  .banner
+   {
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+   } 
+  
+  .signup-banner
+  {
+    min-height: 90vh;
+    background-size: cover;
+  }
+
+/* ALL THINGS BLOG  */
+
+    .blog-loop .blog-item
+    {
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+    margin: 0;
+    display: block;
+    }
+  
+  .blog-masonry
+    {
+    columns: 3;
+    column-gap: 1rem;
+    }
+
+  .window
+  {
+    padding-bottom: 17rem;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .blog-masonry .masonry-item
+    {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    }  
+
+  .youtube-video iframe 
+  {
+  min-width: 80vw;
+  min-height: 80vh;
+  }  
+
+  .box-shadow
+  {box-shadow: 0 2px 6px -2px rgb(0 0 0 / 42%), 0 0px 5px -5px rgb(0 0 0 / 20%)}
+
+  .cute-icon {max-width: 13rem;}
 
 
 
