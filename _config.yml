@@ -68,6 +68,16 @@ _array_structures:
          bottom:
           image:
           heading:
-          textarea_html:
+          textarea:
           cta:
-          link: 
+          link:
+      - label: Gallery
+        icon: photo_camera
+        value:
+          _section-type: gallery
+          1_image:
+          2_image:
+          3_image:
+          4_image:
+          5_image:
+          6_image: 

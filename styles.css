@@ -151,8 +151,21 @@ END */
     font-family: 'Big Shoulders Text', cursive;
     }
 
+   .text-grid p 
+   {
+    font-size: 1.5rem;
+    color: #2F3E39;
+   } 
 
+   .text-grid .read-more:hover {color: #2F3E39;}
 
+   .gallery h5 
+   {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #2F3E39;
+   }
 
    .grid-grid .iconify
    {
@@ -330,7 +343,80 @@ END */
 
   .cute-icon {max-width: 13rem;}
 
+  /* GALLERY  */
 
+  allery
+  {
+  line-height:0;
+  -webkit-column-count:5; /* split it into 5 columns */
+  -webkit-column-gap:5px; /* give it a 5px gap between columns */
+  -moz-column-count:5;
+  -moz-column-gap:5px;
+  column-count:5;
+  column-gap:5px;
+  }
+
+.gallery
+  {
+  margin:5px; /* to match column gap */
+  }
+
+.img-1
+  {
+  padding-bottom:110%;
+  background-size: cover;
+  background-position: center;
+  border-top: solid 5px white;
+  border-left: solid 5px white;
+  }
+
+.img-2
+    {
+    padding-bottom:50%;
+    background-size: cover;
+    background-position: center;
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+    border-left: solid 5px white;
+    }
+
+.img-3
+  {
+  padding-bottom:100%;
+  background-size: cover;
+  background-position: center;
+  border-left: solid 5px white;
+  border-top: solid 5px white;
+
+  }
+
+.img-4
+  {
+  padding-bottom:110%;
+  background-size: cover;
+  background-position: center;
+  border-top: solid 5px white;
+  border-bottom: solid 5px white;
+  border-left: solid 5px white;
+  }
+
+.img-5
+  {
+  padding-bottom:100%;
+  background-size: cover;
+  background-position: center;
+  border-top: solid 5px white;
+  border-right: solid 5px white;
+  border-left: solid 5px white;
+  }
+
+.img-6
+  {
+  border: solid 5px white;
+  padding-bottom:60%;
+  background-size: cover;
+  background-position: center;
+  }
 
     /* RESPONSIVE */
 
@@ -355,6 +441,18 @@ END */
   {
    font-size: 3.5rem;
   }
+
+ /* GALLERY */
+
+  .img-3
+  {
+  border-right: solid 5px white;
+  }
+
+  .img-4
+  {
+  border-right: solid 5px white;
+  } 
 
 
 }
