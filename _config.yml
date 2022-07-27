@@ -31,46 +31,46 @@ _array_structures:
       - lable: Grid
         icon: view_module
         value:
-         _section-type: grid
-         first-grid:
-          icon:
+          _section-type: grid
+          first-grid:
+           icon:
+           link:
+           heading:
+          second-grid:
+           icon:
+           link:
+           heading:
+          third-grid:
+           icon:
+           link:
+           heading:
           link:
-          heading:
-         second-grid:
-          icon:
-          link:
-          heading:
-         third-grid:
-          icon:
-          link:
-          heading:
-         link:
-          description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
-          link:
+           description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
+           link:
       - lable: Video Block
         icon: smart_display
         value:
-         _section-type: video
-         embed-youtube-video:
-         link:
-          description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
+          _section-type: video
+          embed-youtube-video:
           link:
+           description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
+           link:
       - lable: Text Grid
         icon: grid_view 
         value:
-         _section-type: text-grid
-         top:
-          image:
-          heading:
-          textarea:
-          cta:
-          link:
-         bottom:
-          image:
-          heading:
-          textarea:
-          cta:
-          link:
+          _section-type: text-grid
+          top:
+           image:
+           heading:
+           textarea:
+           cta:
+           link:
+          bottom:
+           image:
+           heading:
+           textarea:
+           cta:
+           link:
       - label: Gallery
         icon: photo_camera
         value:
