@@ -28,7 +28,7 @@ _array_structures:
           heading:
           cute-icon_image:
           cute-icon-image-alt:
-      - lable: Grid
+      - label: Grid
         icon: view_module
         value:
           _section-type: grid
@@ -47,7 +47,7 @@ _array_structures:
           link:
             description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
             link:
-      - lable: Video Block
+      - label: Video Block
         icon: smart_display
         value:
           _section-type: video
@@ -55,7 +55,7 @@ _array_structures:
           link:
            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about. If you don't want this section to link from the navigation, you can simply leave it out.
            link:
-      - lable: Text Grid
+      - label: Text Grid
         icon: grid_view 
         value:
           _section-type: text-grid
