@@ -2,6 +2,11 @@ categories:
 - destinations
 - tips
 
+collections:
+ products:
+   enabled: true
+   output: true
+
 page_blocks: []
 _array_structures:
   content-blocks:

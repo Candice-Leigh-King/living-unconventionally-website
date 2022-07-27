@@ -1,0 +1,19 @@
+---
+layout: affiliate 
+---
+
+<div class="grid-center padded-1 ">
+    {% assign recommended_products = site.products | where: 'recommended_products', true %}
+    {% for shop in recommended_products %}
+    <a class="col-4_sm-4_xs-12 padded" href="{{shop.url}}">
+      <div class="card stat-cards grow light-bg">
+        <img src="{{shop.product-image}}" alt="{{shop.product-image-alt}}">
+        <div class="padded-1">
+          <h3>{{shop.product-name}}</h3>
+          <p class="product-price"> {{shop.price}} <span class="compare-at-price">{{shop.discounted-price}} </span> </p>
+          <p>{{shop.product-description}}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>

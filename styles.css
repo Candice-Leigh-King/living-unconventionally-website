@@ -343,9 +343,51 @@ END */
 
   .cute-icon {max-width: 13rem;}
 
+  /* ALL THINGS SHOP */
+  
+  .affiliate-product-page h2 {font-size: 3rem;}
+
+  .affiliate-product-page h1 
+  {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2F3E39;
+    font-weight: bold;
+    text-shadow: none;
+  }
+
+  .affiliate-product-page p
+  {
+    font-size: 1.5rem;
+    color: #748672;
+  }
+
+  .affiliate-product-page img 
+  {
+  max-height: 350px;
+  max-width: auto;
+  
+  }
+
+  .product-price 
+  {
+    color: #9b4851;
+    font-size: 1.7rem;
+  }
+
+
+  .compare-at-price 
+  {
+  text-decoration: line-through;
+  color: #748672;
+  padding-left: 2rem;
+  font-size: 1.7rem;
+  }
+
+
   /* GALLERY  */
 
-  allery
+  .gallery
   {
   line-height:0;
   -webkit-column-count:5; /* split it into 5 columns */
