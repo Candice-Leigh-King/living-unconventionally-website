@@ -75,6 +75,7 @@ _array_structures:
         icon: photo_camera
         value:
           _section-type: gallery
+          heading:
           1_image:
           2_image:
           3_image:
