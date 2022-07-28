@@ -50,10 +50,10 @@ _array_structures:
         value:
           _section-type: video
           embed-youtube-video:
-      - label: Text Grid
+      - label: Read More Grid
         icon: grid_view 
         value:
-          _section-type: text-grid
+          _section-type: read-more-grid
           top:
            image:
            heading:
@@ -77,3 +77,9 @@ _array_structures:
           4_image:
           5_image:
           6_image: 
+      - label: Scrapbook
+        icon: more
+        value: 
+        image:
+        name:
+        textarea_html:    
