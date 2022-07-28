@@ -481,22 +481,6 @@ END */
 
   /* GALLERY  */
 
-  .gallery
-  {
-  line-height:0;
-  -webkit-column-count:5; /* split it into 5 columns */
-  -webkit-column-gap:5px; /* give it a 5px gap between columns */
-  -moz-column-count:5;
-  -moz-column-gap:5px;
-  column-count:5;
-  column-gap:5px;
-  }
-
-.gallery
-  {
-  margin:5px; /* to match column gap */
-  }
-
 .img-1
   {
   padding-bottom:110%;
