@@ -11,11 +11,7 @@ signup_image: /images/image1.png
 banner_image: /images/photos/video-banner-c.jpg
 heading: Unconventional adventures
 subheading: Explore Life Outside the Box
-categories:
- heading: Tips & Tricks
- first: all
- second: destinations
- third: tips & tricks
+category-heading: Tips & Tricks
 ---
 
 <section class="margin-top"></section>
@@ -28,23 +24,7 @@ categories:
      </div>
     </div>
     <div class="col-12 centered">
-        <h2 class="text-6rem">{{page.categories.heading}}</h2>
-    </div>
-</section>
-
-<section class="grid-center lighter-bg centered padded-2">
-    <div class="col-3">
-        <p class="categories "><a href="/videos">{{page.categories.first}}</a></p> 
-    </div>
-    <div class="col-1 dot ">
-        <p class="categories ">●</p>
-    </div>
-    <div class="col-3"> 
-        <p class="categories "><a href="/destinations">{{page.categories.second}}</a></p> 
-    </div>
-    <div class="col-1 dot "><p class="categories ">●</p></div>
-    <div class="col-3">
-        <p class=" categories "><a href="/tips&tricks"> {{page.categories.third}}</a></p>
+        <h2 class="text-6rem">{{page.category-heading}}</h2>
     </div>
 </section>
 
@@ -64,4 +44,3 @@ categories:
     {% endfor %} 
 </section>
 
-<section class="grid signup-banner" style="background-image:url('{{page.signup_image}}')"></section>
