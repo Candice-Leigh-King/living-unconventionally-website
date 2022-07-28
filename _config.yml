@@ -20,9 +20,8 @@ _array_structures:
         value:
           _section-type: hero
           hero_image:
-          hero-textarea_html:
-          cta:
-          cta-link:
+          heading:
+          subheading:
       - label: 3 Recent Videos
         icon: video_library
         value:
