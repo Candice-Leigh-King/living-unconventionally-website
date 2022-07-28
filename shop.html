@@ -1,18 +1,18 @@
 ---
 layout: shop-layout
 seo:
- title: Shop Unconventionally
+ title: Living Unconventionally
  description:
  keywords:
  social-alt:
  url: /
  social-share_image: /images/14.jpg
-heading: our favorite gear
+heading: Shop Unconventionally
 ---
 
 <div class="grid-center padded-1 ">
-    {% assign recommended_products = site.products | where: 'recommended_products', true %}
-    {% for shop in recommended_products %}
+    {% assign all_products = site.products | where: 'all_products', true %}
+    {% for shop in all_products %}
     <a class="col-4_sm-4_xs-12 padded" href="{{shop.url}}">
       <div class="card stat-cards grow light-bg">
         <img src="{{shop.product-image}}" alt="{{shop.product-image-alt}}">

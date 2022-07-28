@@ -56,6 +56,7 @@ END */
    .padded-2 {  padding: 2%;  }
    .padded-grid {padding: 25% 0% 25% 0%;}
    .padded-bottom {padding-bottom: 5%;}
+   .padded-top {padding-top: 5%;}
    .padded-sides {padding: 0% 5%;}
    .padded-left {padding-left: 5%;}
 
@@ -69,8 +70,25 @@ END */
    .lighter-bg {background-color: #B9C5B9;}
    .white-bg {background-color: #FFF;}
    .transparent-bg {background-color: transparent;}
+   .split-bg {background: linear-gradient(180deg,#e8efeb 56%,#b9c5b9 40%);}
 
    .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
+
+   .button
+    {
+    background-color: #B9C5B9;
+    border: 2px solid #B9C5B9;
+    padding: .8rem 3.2rem .6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    }
+
+  .button:hover {
+    border: 2px solid #B9C5B9;
+    background-color: transparent;
+  }
 
    /* FONTS   */
    h1
@@ -144,6 +162,15 @@ END */
    }
 
    .dot .categories {color: #E8EFEB;}
+
+   .shop .dot .categories {color: #2F3E39;}
+
+   .shop h1 
+   {
+    color: #2F3E39; 
+    text-shadow: none;
+    font-size: 3rem;
+  }
 
    .read-more
    {
@@ -366,7 +393,7 @@ END */
   {
   max-height: 350px;
   max-width: auto;
-  
+
   }
 
   .product-price 
@@ -382,6 +409,18 @@ END */
   color: #748672;
   padding-left: 2rem;
   font-size: 1.7rem;
+  }
+
+  .product-icons 
+  {
+   font-size: 2.5rem; 
+   transition: all .4s ease-in-out; 
+  }
+
+  .product-icons:hover 
+  {
+    transform: scale(1.3);
+  
   }
 
 
@@ -496,6 +535,31 @@ END */
   border-right: solid 5px white;
   } 
 
+  /* ALL THINGS SHOP */
+  .affiliate-product-page h2 {font-size: 2.5rem;}
+
+  .affiliate-product-page h1 
+  {
+    font-size: 3rem;
+  }
+
+  .affiliate-product-page p
+  {
+    font-size: 1.2rem;
+    padding-bottom: 5%;
+  }
+
+  .product-price 
+  {
+    font-size: 1.2rem;
+  }
+
+
+  .compare-at-price 
+  {
+  font-size: 1.2rem;
+  }
+
 
 }
 
@@ -519,6 +583,15 @@ END */
   {
    font-size: 3rem;
   }
+
+  /* ALL THINGS SHOP  */
+  .affiliate-product-page h2 {font-size: 2.3rem;}
+
+  .affiliate-product-page h1 
+  {
+    font-size: 2.5rem;
+  }
+
 
 }
 

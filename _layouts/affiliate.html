@@ -5,17 +5,35 @@ layout: header-g
 <section class="margin-top"></section>
 
 <section class="grid affiliate-product-page padded">
-  <div class="col-6 padded-left ">
+  <div class="col-6_sm-12 padded-left ">
     <h2 class="">{{page.subheading}}</h2>
     <h1>{{page.product-name}}</h1>
     <p class="product-price"> {{page.price}}  <span class="compare-at-price">{{page.discounted-price}}</span> </p>
     <p > {{page.product-description}}
     </p>
   </div>
-  <div class="col-6 padded-right padded-left">
+  <div class="col-6_sm-12 padded-right padded-left">
     <img class="box-shadow" src="{{page.product-image}}" alt="">
   </div>
+  <div class="col-6_sm-12 centered padded"> 
+    <a class="button " href="{{page.affiliate-link}}">{{page.affiliate-button}}</a>
+  </div>
+</section>
 
-  <a href="{{page.affiliate-link}}"></a>
+{{content}}
 
+<section class="grid padded-sides lighter-bg">
+    <div class="col-3 icon centered product-icons">
+        <a href="/shop"> <span class="iconify" data-icon="ph:shopping-cart"></a></span>
+    </div>
+    <div class="col-3 icon centered product-icons">
+        <a href="/freebies"> <span class="iconify" data-icon="mdi:sale-outline"></span></a>
+       
+    </div>
+    <div class="col-3 icon centered product-icons">
+       <a href="/recommended-products"><span class="iconify" data-icon="bx:bookmark-heart"></span></a> 
+    </div>
+    <div class="col-3 icon centered product-icons">
+        <a href="/ebooks"><span class="iconify" data-icon="entypo:open-book"></span></a>
+    </div>
 </section>
