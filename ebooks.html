@@ -1,0 +1,28 @@
+---
+layout: shop-layout
+seo:
+ title: Unconventional Ebooks
+ description:
+ keywords:
+ social-alt:
+ url: /
+ social-share_image: /images/14.jpg
+heading: Ebooks
+---
+
+<div class="grid-center padded-1 all-products ">
+    {% assign ebooks_products = site.products | where: 'ebooks_products', true %}
+    {% for shop in ebooks_products %}
+    <a class="col-4_sm-4_xs-12 padded" href="{{shop.url}}">
+      <div class="card stat-cards border centered transparent-bg">
+        <img src="{{shop.product-image}}" alt="{{shop.product-image-alt}}">
+        <div class="padded-1 left">
+          <h5>{{shop.product-name}}</h5>
+          <p class="product-price"> {{shop.price}} <span class="compare-at-price">{{shop.discounted-price}} </span> </p>
+          <p>{{shop.product-description-summery}}</p>
+          <p class="stars">{{shop.product-rating}}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
