@@ -3,7 +3,6 @@ categories:
 - tips
 
 collections:
- icon: star
  products:
    enabled: true
    output: true
