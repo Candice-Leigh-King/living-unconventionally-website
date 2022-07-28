@@ -315,6 +315,13 @@ END */
     text-decoration: none;
     }
 
+  /* FOOTER   */
+
+  footer 
+  {
+  padding: 5% 0% 2%;  
+  }
+
 /* BANNERS */
 
   .banner
