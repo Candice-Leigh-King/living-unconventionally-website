@@ -14,7 +14,7 @@ heading: Our Favorite Gear
     {% assign recommended_products = site.products | where: 'recommended_products', true %}
     {% for shop in recommended_products %}
     <a class="col-4_sm-4_xs-12 padded" href="{{shop.url}}">
-      <div class="card stat-cards grow light-bg">
+      <div class="card stat-cards border transparent-bg">
         <img src="{{shop.product-image}}" alt="{{shop.product-image-alt}}">
         <div class="padded-1">
           <h3>{{shop.product-name}}</h3>

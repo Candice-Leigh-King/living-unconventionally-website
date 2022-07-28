@@ -72,6 +72,8 @@ END */
    .transparent-bg {background-color: transparent;}
    .split-bg {background: linear-gradient(180deg,#e8efeb 56%,#b9c5b9 40%);}
 
+   .border {border: #B9C5B9 solid 2.2px;}
+
    .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
    .button
@@ -150,7 +152,9 @@ END */
     text-decoration: none;
     color: inherit;
     }
+
    a:hover {color: #748672;}
+
 
    .text-4rem {font-size: 4rem;}
    .text-6rem {font-size: 6rem;}
@@ -163,7 +167,7 @@ END */
 
    .dot .categories {color: #E8EFEB;}
 
-   .shop .dot .categories {color: #2F3E39;}
+
 
    .shop h1 
    {
@@ -421,6 +425,21 @@ END */
   {
     transform: scale(1.3);
   
+  }
+
+  .all-products .compare-at-price 
+  {font-size: 1.3rem;}
+
+  .all-products .product-price
+  {font-size: 1.3rem;}
+
+  .all-products h5 
+  {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2F3E39;
+    font-weight: bold;
+    text-shadow: none;
   }
 
 
