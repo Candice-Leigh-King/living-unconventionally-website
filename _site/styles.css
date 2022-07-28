@@ -60,7 +60,8 @@ END */
    .padded-sides {padding: 0% 5%;}
    .padded-left {padding-left: 5%;}
    .padded-right {padding-right: 5%;}
-   .scrapbook-padded-right {padding-right: 10%;}
+  
+   
 
    .margin-top {margin-top: 7.8%;}
 
@@ -319,7 +320,7 @@ END */
 
   footer 
   {
-  padding: 2% 0% 2%;  
+  padding: 0% 0% 2%;  
   }
 
   .built {padding: 2% 0% 0%}
