@@ -3,11 +3,9 @@ categories:
 - tips
 
 collections:
- - label: Shop
-   icon: shopping_cart
-    products:
-    enabled: true
-    output: true
+ products:
+   enabled: true
+   output: true
 
 page_blocks: []
 _array_structures:
