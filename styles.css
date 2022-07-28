@@ -59,6 +59,8 @@ END */
    .padded-top {padding-top: 5%;}
    .padded-sides {padding: 0% 5%;}
    .padded-left {padding-left: 5%;}
+   .padded-right {padding-right: 5%;}
+   .scrapbook-padded-right {padding-right: 10%;}
 
    .margin-top {margin-top: 7.8%;}
 
@@ -177,6 +179,14 @@ END */
   }
 
   .hero h6 {color: #2F3E39;}
+
+  .scrapbook h5 
+  {
+    font-size: 2.9rem;
+    font-weight: 100;
+  }
+
+  .scrapbook p {font-size: 1.3rem;}
 
    .read-more
    {
@@ -533,6 +543,27 @@ END */
   padding-bottom:60%;
   background-size: cover;
   background-position: center;
+  }
+
+.scrapbook img {max-height: 525px;}  
+
+  .bump-down 
+  {
+    margin-bottom: -3.3rem;
+    z-index: 1;
+    margin-right: -12rem;
+  }
+
+  .bump-right
+  {
+    z-index: 1;
+    margin-right: -12rem;
+  }
+
+  .bump-left
+  {
+    z-index: 1;
+    margin-right: 12rem;
   }
 
     /* RESPONSIVE */

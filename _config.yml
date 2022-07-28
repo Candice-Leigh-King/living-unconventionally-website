@@ -81,7 +81,12 @@ _array_structures:
         icon: more
         value: 
           _section-type: scrapbook
-          textarea_html: 
-          name:
-          image:
+          top:
+            textarea_html: 
+            name:
+            image:
+          bottom: 
+            textarea_html: 
+            name:
+            image: 
            

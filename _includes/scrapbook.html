@@ -1,11 +1,25 @@
-<section class="grid">
-    <div class="col-7">
-        <p>{{item.textarea_html}} </p>
-    </div>
-    <div class="col-1">
-        <h5>{{item.name}}</h5>
-    </div>
-    <div class="col-4 scrapbook-banner" style="background-image: url('{{item.image}}');"></div>>
+<section class=" padded scrapbook">
+    <div class="grid-center">
+      <div class="col-2 centered bump-down bump-right">
+        <h5 class="white-bg">{{item.top.name}}</h5>
+      </div>
+    </div>  
+    <div class="grid-center"> 
+      <div class="col-6-middle padded-right ">
+        <p>{{item.top.textarea_html}} </p>
+     </div>
+     <div class="col-4 centered scrapbook-banner"><img src="{{item.top.image}}" alt=""></div>
+   </div>
 
+   <div class="grid-center">
+    <div class="col-2 centered bump-down bump-left">
+      <h5 class="white-bg">{{item.bottom.name}}</h5>
     </div>
+  </div>  
+  <div class="grid-center"> 
+    <div class="col-4 centered scrapbook-banner"> <img src="{{item.bottom.image}}" alt=""></div>
+    <div class="col-6-middle padded-left ">
+      <p>{{item.bottom.textarea_html}} </p>
+   </div>
+ </div>
 </section>
