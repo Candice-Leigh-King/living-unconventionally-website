@@ -2,6 +2,7 @@ categories:
 - destinations
 - tips
 
+collections:
  products:
    enabled: true
    output: true
