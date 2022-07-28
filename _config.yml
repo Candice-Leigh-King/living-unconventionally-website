@@ -2,7 +2,9 @@ categories:
 - destinations
 - tips
 
-products:
+collections:
+ icon: star
+ products:
    enabled: true
    output: true
 
