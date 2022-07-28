@@ -327,6 +327,14 @@ END */
     background-repeat: no-repeat;
 }
 
+.scrapbook-banner 
+{
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+  background-repeat: no-repeat;
+}
+
 /* ALL THINGS BLOG  */
 
     .blog-loop .blog-item
