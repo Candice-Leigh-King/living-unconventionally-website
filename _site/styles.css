@@ -400,6 +400,13 @@ END */
 
   }
 
+  .affiliate-product-page .product-price 
+  {
+    color: #9b4851;
+    font-size: 1.7rem;
+  }
+
+
   .product-price 
   {
     color: #9b4851;
