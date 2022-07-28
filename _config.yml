@@ -80,6 +80,8 @@ _array_structures:
       - label: Scrapbook
         icon: more
         value: 
-        image:
-        name:
-        textarea_html:    
+          _section-type: scrapbook
+          textarea_html: 
+          name:
+          image:
+           
