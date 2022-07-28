@@ -1,5 +1,5 @@
 ---
-layout: header-g
+layout: videos-layout
 seo:
   title: Unconventional adventures
   description:
@@ -11,42 +11,8 @@ signup_image: /images/image1.png
 banner_image: /images/photos/video-banner-c.jpg
 heading: Unconventional adventures
 subheading: Explore Life Outside the Box
-categories:
- heading: Destinations
- first: all
- second: destinations
- third: tips & tricks
+category-heading: Destinations
 ---
-
-<section class="margin-top"></section>
-
-<section class="grid-bottom padded-1">
-    <div class="col-12 grid-bottom banner" style="background-image: url('{{page.banner_image}}');">
-     <div class="col-12 centered padded">
-       <h1> {{page.heading}}</h1>
-        <h6 class="text-4rem">{{page.subheading}}</h6>
-     </div>
-    </div>
-    <div class="col-12 centered">
-        <h2 class="text-6rem">{{page.categories.heading}}</h2>
-    </div>
-</section>
-
-<section class="grid-center lighter-bg centered padded-2">
-    <div class="col-3">
-        <p class="categories "><a href="/videos">{{page.categories.first}}</a></p> 
-    </div>
-    <div class="col-1 dot ">
-        <p class="categories ">●</p>
-    </div>
-    <div class="col-3"> 
-        <p class="categories "><a href="/destinations">{{page.categories.second}}</a></p> 
-    </div>
-    <div class="col-1 dot "><p class="categories ">●</p></div>
-    <div class="col-3">
-        <p class=" categories "><a href="/tips&tricks"> {{page.categories.third}}</a></p>
-    </div>
-</section>
 
 <section class="grid padded">
     {% for post in site.categories.destinations%}
