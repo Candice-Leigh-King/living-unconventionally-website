@@ -109,8 +109,8 @@ _array_structures:
         icon: groups
         value: 
          _section-type: social-media-icons
-          icon: instagram
-          instagram: 
+         icon: instagram
+         instagram: 
            link: 
            icon: 
          facebook:
