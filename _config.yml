@@ -125,7 +125,7 @@ _array_structures:
           icon: 
          heading:
       - label: Text Block with Icon 
-        icon: insert_emoticon
+        icon: rtt
         value: 
          _section-type: text-with-icon
          top: 
@@ -135,7 +135,7 @@ _array_structures:
           icon:
           textarea_html:  
       - label: Sign Up
-        icon: list
+        icon: format_list_bulleted
         value:
          _section-type: sign-up
          heading:
