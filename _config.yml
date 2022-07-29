@@ -128,12 +128,12 @@ _array_structures:
         icon: rtt
         value: 
          _section-type: text-with-icon
-         top: 
+         top:
+          textarea_html: 
           icon: 
-          textarea_html:
          bottom:
-          icon:
           textarea_html:  
+          icon:
       - label: Sign Up
         icon: format_list_bulleted
         value:
