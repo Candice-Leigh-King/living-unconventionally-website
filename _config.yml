@@ -104,7 +104,23 @@ _array_structures:
         value: 
           _section-type: basic-text-block
           heading:
-          textarea_html:    
+          textarea_html: 
+      - label: Social Media Icons
+        icon: groups
+        value: 
+          _section-type: social-media-icons
+           instagram: 
+            link: 
+            icon: 
+          facebook:
+           link:
+           icon: 
+          youtube:
+           link:
+           icon:
+          tiktok:
+           link:
+           icon:     
 
  
            
