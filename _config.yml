@@ -123,5 +123,16 @@ _array_structures:
          tiktok:
           link:
           icon: 
-         heading:     
+         heading:
+      - label: Text with Icon 
+        icon: groups
+        value: 
+         _section-type: text-with-icon
+         top: 
+          icon: 
+          textarea_html:
+         bottom:
+          icon:
+          textarea_html:  
+
            
