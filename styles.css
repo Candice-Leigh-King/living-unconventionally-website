@@ -60,7 +60,7 @@ END */
    .padded-sides {padding: 0% 5%;}
    .padded-left {padding-left: 5%;}
    .padded-right {padding-right: 5%;}
-  
+
    
 
    .margin-top {margin-top: 7.8%;}
@@ -170,8 +170,6 @@ END */
 
    .dot .categories {color: #E8EFEB;}
 
-
-
    .shop h1 
    {
     color: #2F3E39; 
@@ -210,6 +208,14 @@ END */
     font-size: 3rem;
     color: #2F3E39;
    }
+
+  .signature h3 
+  { 
+    font-family: moontime;
+    font-weight: 100;
+    font-size: 3rem;
+    color: #2F3E39;
+  }
 
    .grid-grid .iconify
    {
@@ -340,20 +346,29 @@ END */
     background-size: cover;
   }
 
-  .bg-image-content {
+  .bg-image-content 
+  {
     background-size: cover;
     background-position: center;
     min-height: 100%;
     background-repeat: no-repeat;
-}
+  }
 
-.scrapbook-banner 
-{
+  .scrapbook-banner 
+  {
   background-size: cover;
   background-position: center;
   min-height: 100%;
   background-repeat: no-repeat;
-}
+  }
+
+  .page-break
+  {
+    min-height: 185px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
 /* ALL THINGS BLOG  */
 

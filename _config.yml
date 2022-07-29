@@ -89,4 +89,16 @@ _array_structures:
             textarea_html: 
             name:
             image: 
+      - label: Signature
+        icon: create
+        value: 
+          _section-type: signature
+          signature:
+      - label: Page Break
+        icon: insert_page_break
+        value: 
+          _section-type: page-break
+          image:
+
+ 
            
