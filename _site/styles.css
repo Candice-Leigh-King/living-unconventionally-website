@@ -635,12 +635,19 @@ END */
 @media(max-width:768px)
 {
 
-  h3
-  {
-   font-size: 3.5rem;
-  }
+  h1{font-size: 3.5rem;}
 
   h2 {font-size: 3rem;}
+
+  h3 {font-size: 3.5rem; }
+
+  h4 {font-size: 2.5rem;}
+
+  .text-4rem {font-size: 2.5rem;}
+
+  .text-6rem {font-size: 5rem;}
+
+ 
 
   .grid-grid  .iconify
   {
@@ -732,14 +739,20 @@ END */
    padding: 15% 5% 15% 5% !important;
   }
 
+  h1 {font-size: 3rem;}
+
   h3
-  {
-   font-size: 3rem;
-  }
+  {font-size: 3rem;}
+
+  h4 {font-size: 2rem;}
+
+  .text-4rem {font-size: 2rem;}
+  .text-6rem {font-size: 3rem;}
 
   .hero h6 {font-size: 2.9rem;}
 
   .gallery h5 {font-size: 1.2rem;}
+
 
   .quote p 
   { font-size: 2rem;}  
