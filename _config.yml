@@ -123,7 +123,7 @@ _array_structures:
          tiktok:
           link:
           icon: 
-         heading:
+         form-heading:
       - label: Text Block with Icon 
         icon: rtt
         value: 
@@ -140,5 +140,6 @@ _array_structures:
          _section-type: sign-up
          heading:
          image:
+         form-heading:
 
            
