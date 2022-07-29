@@ -134,5 +134,20 @@ _array_structures:
          bottom:
           icon:
           textarea_html:  
+      - label: Sign Up
+        icon: list
+        value:
+         _section-type: sign-up
+         heading:
+      - label: Text Block with Icon
+        icon: insert_emoticon
+        value:  
+         _section-type: text-with-icon
+         top:
+          icon:
+          textarea_html:
+         bottom:
+          icon:
+          textarea_html:  
 
            

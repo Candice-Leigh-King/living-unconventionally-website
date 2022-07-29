@@ -51,15 +51,15 @@ END */
    .right    {  text-align: right;    }
    .centered {  text-align: center;   }
 
-   .padded   {  padding: 5%;    }
-   .padded-1 {  padding: 5% 5% 0% 5%;  }
-   .padded-2 {  padding: 2%;  }
-   .padded-grid {padding: 25% 0% 25% 0%;}
-   .padded-bottom {padding-bottom: 5%;}
-   .padded-top {padding-top: 5%;}
-   .padded-sides {padding-left: 5%; padding-right: 5%;}
-   .padded-left {padding-left: 5%;}
-   .padded-right {padding-right: 5%;}
+   .padded   {  padding: 5% !important;    }
+   .padded-1 {  padding: 5% 5% 0% 5% !important;  }
+   .padded-2 {  padding: 2% !important;  }
+   .padded-grid {padding: 25% 0% 25% 0% !important;}
+   .padded-bottom {padding-bottom: 5% !important;}
+   .padded-top {padding-top: 5% !important;}
+   .padded-sides {padding-left: 5%; padding-right: 5% !important;}
+   .padded-left {padding-left: 5% !important;}
+   .padded-right {padding-right: 5% !important;}
 
    
 
@@ -174,6 +174,8 @@ END */
     color: #2F3E39;
     font-size: 4rem;
   }
+
+
    
 
 
@@ -254,6 +256,8 @@ END */
     font-size: 15rem;
     color: #748672;
    }
+
+   
 
    h2, h3, h4, h5, h6
    {
@@ -635,7 +639,7 @@ END */
    font-size: 3.5rem;
   }
 
-  .built .padded-right {padding: 0% ;}
+  .built .padded-right {padding: 0% !important;}
 
  /* GALLERY */
 
@@ -661,6 +665,9 @@ END */
   .product-price 
   {font-size: 1.2rem;}
 
+  .quote p 
+  { font-size: 2.5rem;}
+
 
   .compare-at-price 
   {font-size: 1.2rem;}
@@ -670,14 +677,14 @@ END */
 
  .signature h3   { font-size: 2.5rem;}
 
- .hero h6 {font-size: 4rem;}
+ .hero h6 {font-size: 3rem;}
 
- .hero h1 {font-size: 4rem;}
+ .hero h1 {font-size: 3rem;}
 
  .scrapbook h5 {font-size: 2.8rem;}
 
- .scrapbook .padded-left {padding: 0%;}
- .scrapbook .padded-right {padding: 0%;}
+ .scrapbook .padded-left {padding: 0% !important;}
+ .scrapbook .padded-right {padding: 0% !important;}
 
  .bump-right {margin-right: -11rem;}
  .bump-down {margin-bottom: -1rem;}
@@ -693,6 +700,19 @@ END */
 
  .social-media-icons h4 { font-size: 3.5rem;}
 
+ .worldschooling .border-right 
+ {
+  border-right: 0px ;
+  border-left: #171F18 1px solid;
+ }
+
+ .worldschooling .padded-right 
+ {
+  padding-right: 0%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
 
 /* SMALLER THAN TABLET */
 
@@ -701,7 +721,7 @@ END */
 
   .padded-grid
   {
-   padding: 15% 5% 15% 5%;
+   padding: 15% 5% 15% 5% !important;
   }
 
   h3
@@ -713,7 +733,8 @@ END */
 
   .gallery h5 {font-size: 1.2rem;}
 
-  
+  .quote p 
+  { font-size: 2rem;}  
 
   .signature h3  
  {
