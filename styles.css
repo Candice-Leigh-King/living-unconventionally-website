@@ -615,9 +615,7 @@ END */
   .affiliate-product-page h2 {font-size: 2.5rem;}
 
   .affiliate-product-page h1 
-  {
-    font-size: 3rem;
-  }
+  { font-size: 3rem;}
 
   .affiliate-product-page p
   {
@@ -626,15 +624,26 @@ END */
   }
 
   .product-price 
-  {
-    font-size: 1.2rem;
-  }
+  {font-size: 1.2rem;}
 
 
   .compare-at-price 
-  {
-  font-size: 1.2rem;
-  }
+  {font-size: 1.2rem;}
+
+ .signature h3   { font-size: 2.5rem;}
+
+ .hero h6 {font-size: 4rem;}
+
+ .scrapbook h5 {font-size: 2.8rem;}
+
+ .scrapbook .padded-left {padding: 0%;}
+ .scrapbook .padded-right {padding: 0%;}
+
+ .bump-right {margin-right: -11rem;}
+ .bump-down {margin-bottom: -1rem;}
+ .bump-left { margin-right: 10rem;}
+
+ .flex-flip{flex-direction: row;}
 
 
 }
@@ -655,6 +664,13 @@ END */
    font-size: 3rem;
   }
 
+  .hero h6 {font-size: 2.9rem;}
+
+  .signature h3  
+ {
+  font-size: 2rem;
+ }
+
   .grid-grid .iconify
   {
    font-size: 3rem;
@@ -667,6 +683,8 @@ END */
   {
     font-size: 2.5rem;
   }
+
+  .scrapbook h5 {font-size: 2rem;}
 
 
 }
