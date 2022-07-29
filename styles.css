@@ -66,6 +66,8 @@ END */
    .margin-top {margin-top: 7.8%;}
 
    .border-bottom {border-bottom: #171F18 1px solid;}
+   .border-right {border-right: #171F18 1px solid;}
+   .border-left {border-left: #171F18 1px solid;}
 
    .dark-bg      {  background-color: #2F3E39;     }
    .light-bg     {  background-color: #748672;  }
@@ -193,7 +195,15 @@ END */
     font-size: 3rem;
   }
 
-  .hero h6 {color: #2F3E39;}
+  /* .hero h6 {color: #2F3E39;} */
+  .quote p 
+  {
+    font-family: moontime;
+    font-size: 3rem;
+    color: #E8EFEB;
+    font-weight: 100;
+
+  }
 
   .scrapbook h5 
   {
@@ -237,6 +247,12 @@ END */
    {
     font-size: 5rem;
     color: #2F3E39;
+   }
+
+   .worldschooling .iconify
+   {
+    font-size: 15rem;
+    color: #748672;
    }
 
    h2, h3, h4, h5, h6

@@ -21,7 +21,9 @@ _array_structures:
           _section-type: hero
           hero_image:
           heading:
+          quote:
           subheading:
+          optional-subheading:
       - label: 3 Recent Videos
         icon: video_library
         value:
@@ -120,5 +122,6 @@ _array_structures:
           icon:
          tiktok:
           link:
-          icon:     
+          icon: 
+         heading:     
            
