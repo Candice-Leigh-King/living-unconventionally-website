@@ -57,7 +57,7 @@ END */
    .padded-grid {padding: 25% 0% 25% 0%;}
    .padded-bottom {padding-bottom: 5%;}
    .padded-top {padding-top: 5%;}
-   .padded-sides {padding: 0% 5%;}
+   .padded-sides {padding-left: 5%; padding-right: 5%;}
    .padded-left {padding-left: 5%;}
    .padded-right {padding-right: 5%;}
 
@@ -161,8 +161,16 @@ END */
    .social-media-icons a 
    {
     font-size: 3rem;
-    padding: 2% 5%;
+    padding: 0% 5%;
     color: #e8efeb;
+   }
+
+  .social-media-icons h4 
+  {
+    font-family: moontime;
+    font-weight: 100;
+    color: #2F3E39;
+    font-size: 4rem;
   }
    
 
@@ -661,8 +669,13 @@ END */
 
  .flex-flip{flex-direction: row;}
 
+ .social-media-icons a 
+   {
+   font-size: 2.5rem;
+   padding: 1% 8%;
+   }
 
-}
+ .social-media-icons h4 { font-size: 3.5rem;}
 
 
 /* SMALLER THAN TABLET */
