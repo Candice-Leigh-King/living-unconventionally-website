@@ -76,6 +76,7 @@ END */
    .split-bg {background: linear-gradient(180deg,#e8efeb 56%,#b9c5b9 40%);}
 
    .border {border: #B9C5B9 solid 2.2px;}
+   .radius {border-radius: 100px;}
 
    .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
@@ -87,7 +88,6 @@ END */
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-
     }
 
   .button:hover {
@@ -157,6 +157,14 @@ END */
     }
 
    a:hover {color: #748672;}
+
+   .social-media-icons a 
+   {
+    font-size: 3rem;
+    padding: 2% 5%;
+    color: #e8efeb;
+  }
+   
 
 
    .text-4rem {font-size: 4rem;}
@@ -603,7 +611,7 @@ END */
    font-size: 3.5rem;
   }
 
-  .built .padded-right {padding: 0%;}
+  .built .padded-right {padding: 0% ;}
 
  /* GALLERY */
 
