@@ -100,7 +100,7 @@ _array_structures:
           _section-type: page-break
           image:
       - label: Basic Text Block
-        icon: insert_page_break
+        icon: article
         value: 
           _section-type: basic-text-block
           heading:
