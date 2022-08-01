@@ -343,12 +343,10 @@ END */
   /* MOBILE MENU  */
   .hamburger 
     {
-      top: -5px;
-    right: 5px;
-    margin: 1% 4%;
+    top: 2px;
+    right: 17px;
     z-index: 10;
     font-size: 3rem;
-    padding:0% 2%;
     border-radius: 0%;
     position: fixed;
     color: #FDFAF0;
@@ -382,7 +380,12 @@ END */
 .mobile-menu p:hover {color:#5F4F45;}
 
 
-.cross {cursor: pointer;}
+.cross 
+{
+  cursor: pointer;
+  top: 2px;
+  right: 17px;
+}
 
 .mobile-menu {
   display: none;
