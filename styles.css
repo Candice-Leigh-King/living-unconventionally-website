@@ -341,40 +341,55 @@ END */
   }
 
   /* MOBILE MENU  */
-  .hamburger
+  .hamburger 
     {
-    position: absolute;
-    top:0;
-    right:0;
-    z-index: 3;
-    font-size: 1.5rem;
-    padding:2% 5%;
-    }
+      top: -5px;
+    right: 5px;
+    margin: 1% 4%;
+    z-index: 10;
+    font-size: 3rem;
+    padding:0% 2%;
+    border-radius: 0%;
+    position: fixed;
+    color: #FDFAF0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 8px;
+    cursor: pointer;
+  }
+ 
 
-  .active
-    {
-    color: #e67e22;
-    }
-
-  .mobile-menu
-    {
-    position: absolute;
+  .mobile-menu {
+    position: fixed;
     top: 0;
-    left:0;
     right:0;
+    left:0;
     bottom: 0;
-    background-color: rgb(60,60,65);
-    padding: 10%;
-    }
-
-  .mobile-menu a
-    {
-    color: white;
-    padding: 1rem;
+    padding: 30% 10% 10% 10%;
+    z-index: 10;
+    color: #c3a496;
+    padding: 1.2rem;
     display: block;
     text-decoration: none;
-    }
+    text-align: center;
+    font-size: 2.5rem;
+  }
 
+  .circle-radius {background-image: radial-gradient(#B89E8E 65%, #FDFAF0 40%);}
+
+.mobile-menu a {color: #FDFAF0;}
+
+.mobile-menu a:hover {color: #5F4F45;}
+.mobile-menu p:hover {color:#5F4F45;}
+
+
+.cross {cursor: pointer;}
+
+.mobile-menu {
+  display: none;
+}
+
+.logo img {max-width: 7rem;}
+.desktop-hide .logo img {max-width: 5rem;}
   /* FOOTER   */
 
   footer 
@@ -642,6 +657,8 @@ END */
 @media(max-width:768px)
 {
 
+  .mob-hide { display: none;}
+
   h1{font-size: 3.5rem;}
 
   h2 {font-size: 3rem;}
@@ -660,7 +677,6 @@ END */
 
   .signup-banner h4 {font-size: 3rem;}
 
- 
 
   .grid-grid  .iconify
   {
@@ -742,6 +758,8 @@ END */
 }
 
 
+
+
 /* SMALLER THAN TABLET */
 
 @media(max-width:576px)
@@ -815,4 +833,4 @@ END */
    font-size: 2.3rem;
   }
 
-}
+}  
