@@ -107,10 +107,10 @@ _array_structures:
           _section-type: basic-text-block
           heading:
           textarea_html: 
-      - label: Social Media Icons
-        icon: groups
+      - label: Basic Sign Up
+        icon: contact_mail
         value: 
-         _section-type: socials
+         _section-type: basic-sign-up
          form-heading:
       - label: Text Block with Icon 
         icon: rtt
@@ -122,10 +122,10 @@ _array_structures:
          bottom:
           textarea_html:  
           icon:
-      - label: Sign Up
+      - label: Fun Sign Up
         icon: format_list_bulleted
         value:
-         _section-type: sign-up
+         _section-type: fun-sign-up
          heading:
          image:
          form-heading:
