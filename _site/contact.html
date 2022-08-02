@@ -119,62 +119,51 @@
          
          <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[0]">
              <span class="cms-editor-button"></span>
-           <section class="padded grid-center split-bg  contact" style="background-image:url('')">
-  <form method="post" action="/success.html" class="enquiry col-12 grid-center capped-width">
-  <div class=" col-8_md-9_sm-12 padded-form-2 radius " id="">
+           <section class="padded grid-middle split-bg contact">
+  <div class="col-4_sm-12 banner " style="background-image: url('/images/photos/contact.jpg');"></div>
+  <form method="post" action="/success.html" class="enquiry col-8_sm-12 grid-center capped-width">
+  <div class=" col-12 centered padded " id="">
     <h3 class="">Let's chat</h3>
       <div class="grid padded-sides">
-      <div class="col-1_sm-12 relative">
-        <h3 class="sm-bold vertical-form-text "> </h3>
+        <div class="col-12 padded">
+         <div class="floating-input ">
+          <input type="text" name="Name" placeholder="Name" class="input-text form-text_color" required="" />
+          <label class="input-label">Name</label>
+         </div>
+
+         <div class="floating-input">
+          <input type="text" name="Email" placeholder="Email" class="input-text form-text_color" />
+          <label class="input-label">Email</label>
+         </div>
+
+         <div class="floating-input">
+          <textarea name="Message" placeholder="Message" class="input-text form-text_color" style=" height: 43px;"></textarea>
+          <label class="input-label">Message</label>
+         </div>
+
+        <div class="padded grid-center">
+          <input type="hidden" name="_to" value="eli.ourwhereabouts@gmail.com">
+          <input type="text" name="_gotcha" style="display: none;">
+          <input type="submit" value="Send Message" class="center button-solid" />
+        </div>
+       </div>
       </div>
-
-      <div class="col-10_sm-12 padded">
-        <div class="floating-input ">
-          <input type="text" name="" placeholder="" class=" input-text form-text_color" required="" />
-          <label class="input-label"></label>
+      <div class="grid-center"><p class="col-6_sm-12-center"><b>If you'd like to stay in touch, we can connect over socials!</b></p></div>
+      
+      <div class="col-12 grid-center social-media-icons">
+        <div class="col-3 padded centered ">
+            <a class="radius  " href="https://www.instagram.com/our.whereabouts/ "><span class="iconify" data-icon="foundation:social-instagram"></span></a>
         </div>
-
-        <div class="floating-input ">
-          <input type="text" name="" placeholder="" class="input-text form-text_color" required="" />
-          <label class="input-label"></label>
+        <div class="col-3 padded  centered">
+            <a class=" radius"href="https://www.pinterest.com/ourwhereabouts/ "><span class="iconify" data-icon="bxl:facebook"></span></a>
         </div>
-
-        <div class="floating-input ">
-          <input type="text" name="" placeholder="" class="input-text form-text_color" />
-          <label class="input-label"></label>
+        <div class="col-3 padded  centered">
+            <a class=" radius" href="https://www.pinterest.com/ourwhereabouts/"><span class="iconify" data-icon="fa:youtube"></span></a>
         </div>
-
-      </div>
+        <div class="col-3 padded centered">
+            <a class=" radius"href="https://www.tiktok.com/@our.whereabouts "><span class="iconify" data-icon="akar-icons:tiktok-fill"></span></a>
+        </div>
     </div>
-    <div class="grid padded-sides">
-
-      <div class="col-1_sm-12 relative">
-        <h3 class="sm-bold vertical-form-text "> </h3>
-      </div>
-
-      <div class="col-10_sm-12 padded form-text_color">
-        <div class="floating-input ">
-          <textarea name="" placeholder="" class="input-text form-text_color"></textarea>
-          <label class="input-label"></label>
-        </div>
-
-        <div class="floating-input input-text input-text r">
-          <select name="services " id="services" required="">
-            <option class="input-text form-text_color"></option>
-            <option class="input-text form-text_color" value=""></option>
-            <option class="input-text form-text_color" value=""></option>
-            <option class="input-text form-text_color" value=""></option>
-            <option class="input-text form-text_color" value=""></option>
-          </select>
-        </div>
-        </div>
-      </div>
-      <div class="padded grid-center">
-        <input type="hidden" name="inbox_key" value="eli.ourwhereabouts@gmail.com">
-        <input type="text" name="_gotcha" style="display: none;" />
-        <input type="submit" value="Send Message" class="center button-solid button_color button-text_color" />
-      </div>
-      <h6></h6>
     </div>
   </form>
 </section>

@@ -75,7 +75,7 @@ END */
    .lighter-bg {background-color: #B9C5B9;}
    .white-bg {background-color: #FFF;}
    .transparent-bg {background-color: transparent;}
-   .split-bg {background: linear-gradient(180deg,#e8efeb 56%,#b9c5b9 40%);}
+  .split-bg { background: linear-gradient(-90deg,#e8efeb 73%,#748672 18%);}
    .border {border: #B9C5B9 solid 2.2px;}
    .radius {border-radius: 100px;}
 
@@ -164,6 +164,14 @@ END */
     font-size: 3rem;
     padding: 0% 5%;
     color: #e8efeb;
+    background-color: #748672;
+   }
+
+   .social-media-icons a:hover 
+   {
+    background-color:#e8efeb;
+    color: #748672;
+    border: #748672 solid 1px;
    }
 
   .social-media-icons h4 
@@ -188,10 +196,6 @@ END */
     color: #171F18;
     font-size: 2.2rem;
   }
-
-
-   
-
 
    .text-4rem {font-size: 4rem;}
    .text-6rem {font-size: 6rem;}
@@ -271,7 +275,7 @@ END */
     color: #748672;
    }
 
-   
+   .contact p {font-size: 1.2rem;}
 
    h2, h3, h4, h5, h6
    {
@@ -291,7 +295,6 @@ END */
 
   .built {line-height: 30px;} 
 
-
   header nav a,
   .inline a
     {
@@ -299,7 +302,11 @@ END */
      padding: 0.5rem;
     }
 
-    p, ul {margin-bottom: 0.8rem;}
+    p, ul 
+    {
+      margin-bottom: 0.8rem;
+      color: #171F18;
+    }
 
     /* this makes sure that the last element in any container doesn't have margin-bottom */
      h2:last-child,
@@ -354,7 +361,6 @@ END */
     cursor: pointer;
   }
  
-
   .mobile-menu {
     position: fixed;
     top: 0;
@@ -374,10 +380,6 @@ END */
 .mobile-menu .iconify {font-size: 1.3rem;}
 
 .mobile-menu a {color: #FDFAF0;}
-
-.mobile-menu a:hover {color: #5F4F45;}
-.mobile-menu p:hover {color:#5F4F45;}
-
 
 .cross 
 {
@@ -426,10 +428,10 @@ END */
 
   .scrapbook-banner 
   {
-  background-size: cover;
-  background-position: center;
-  min-height: 100%;
-  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    background-repeat: no-repeat;
   }
 
   .page-break
@@ -528,13 +530,11 @@ END */
     font-size: 1.7rem;
   }
 
-
   .product-price 
   {
     color: #9b4851;
     font-size: 1.7rem;
   }
-
 
   .compare-at-price 
   {
@@ -570,6 +570,99 @@ END */
     font-weight: bold;
     text-shadow: none;
   }
+
+  /* CONTACT */
+
+  .textarea {
+    min-height: 6rem;}
+
+  .relative {
+      position: relative;} 
+
+  .floating-input
+    {
+    position: relative;
+    padding-top: 1rem;
+  }
+
+  .enquiry input {font-family: 'Montserrat', sans-serif;}
+
+  input::placeholder {color: #171F18;}
+  textarea::placeholder {color: #171F18;}
+
+  .input-text
+    {
+    font-size: 1rem;
+    line-height: 1.2;
+    display: block;
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #748672;
+    transition: all .5s;
+    padding: .7rem 0 .5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #171F18;
+    }
+
+  .input-label
+    {
+    display: none;
+    }
+
+.input-text:placeholder-shown+.input-label
+  {
+  visibility: hidden;
+  z-index: -1;
+  }
+
+input[type=submit]
+  {
+  width: auto;
+  display: block;
+  }
+
+.button-solid
+  {
+  background-color: #748672;
+  color: #E8EFEB;
+  border: 1px solid #748672;
+  padding: .8rem 2rem .6rem;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  }
+
+  .button-solid:hover
+  {
+  background-color:#e8efeb;
+  color: #748672;
+  border: #748672 solid 1px; 
+  }
+
+  element.style {display: none;}
+
+
+input,
+textarea,
+select,
+option
+  {
+  border-style: solid;
+  padding: 0.8em;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  color: #171F18;
+  }
+select {padding: 0.7rem 0 0.5rem}
+
+.input-text:focus {border-color:#2F3E39;}
+
+input:focus, textarea:focus
+  {outline: 0;}
 
 
   /* GALLERY  */
@@ -799,6 +892,8 @@ END */
 
   .signup-banner h4 {font-size: 2.6rem;}
 
+  .contact p { font-size: 1rem;}
+
 
   .quote p 
   { font-size: 2rem;}  
@@ -824,6 +919,8 @@ END */
 
   .scrapbook h5 {font-size: 2rem;}
 
+  /* CONTACT */
+  .split-bg {background:linear-gradient(0deg,#e8efeb 61%,#748672 40%)}
 
 }
 

@@ -135,20 +135,10 @@ _array_structures:
           _section-type: form
           heading:
           signature_html:
-          background_image:
-          top:
-            vertical-subheading:
-            text-option-1_html:
-            text-option-2_html:
-            text-option-3_html:
-          bottom:
-            vertical-subheading:
-            message_html:
-          option-box:
-            subheading:
-            option-1_html:
-            option-2_html:
-            option-3_html:
-            option-4_html:   
+          image:
+          input-1:
+          input-2:
+          input-3:
+          textarea_html: 
 
            
