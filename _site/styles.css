@@ -479,10 +479,17 @@ END */
     break-inside: avoid-column;
     }
 
-  .youtube-video iframe
+  .youtube-video 
   {
-  min-width: 80vw;
-  min-height: 80vh;
+  margin-bottom: -2.9rem;
+  margin-top: -3.5rem;
+  }
+
+  .youtube-video iframe 
+  {
+  min-width: 100vw;
+  min-height: 100vh;
+  
   }
 
   .box-shadow

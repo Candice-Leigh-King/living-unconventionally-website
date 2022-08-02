@@ -47,10 +47,10 @@ _array_structures:
             heading:
             icon:
             link:
-      - label: Video Block
+      - label: Video Hero
         icon: smart_display
         value:
-          _section-type: video
+          _section-type: video-hero
           embed-youtube-video:
       - label: Read More Grid
         icon: grid_view 
@@ -129,5 +129,26 @@ _array_structures:
          heading:
          image:
          form-heading:
+      - label: Form
+        icon: article
+        value:
+          _section-type: form
+          heading:
+          signature_html:
+          background_image:
+          top:
+            vertical-subheading:
+            text-option-1_html:
+            text-option-2_html:
+            text-option-3_html:
+          bottom:
+            vertical-subheading:
+            message_html:
+          option-box:
+            subheading:
+            option-1_html:
+            option-2_html:
+            option-3_html:
+            option-4_html:   
 
            
