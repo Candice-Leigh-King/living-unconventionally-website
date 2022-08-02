@@ -544,6 +544,9 @@ END */
   font-size: 1.7rem;
   }
 
+.shopify-buy-frame--product {
+  display: inline !important;
+}
   .product-icons 
   {
    font-size: 2.5rem; 
