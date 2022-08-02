@@ -123,14 +123,14 @@ _array_structures:
           textarea_html:  
           icon:
       - label: Fun Sign Up
-        icon: format_list_bulleted
+        icon: draw
         value:
          _section-type: fun-sign-up
          heading:
          image:
          form-heading:
       - label: Form
-        icon: article
+        icon: email
         value:
           _section-type: form
           heading:

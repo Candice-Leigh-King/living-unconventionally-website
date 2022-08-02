@@ -76,7 +76,6 @@ END */
    .white-bg {background-color: #FFF;}
    .transparent-bg {background-color: transparent;}
    .split-bg {background: linear-gradient(180deg,#e8efeb 56%,#b9c5b9 40%);}
-
    .border {border: #B9C5B9 solid 2.2px;}
    .radius {border-radius: 100px;}
 
