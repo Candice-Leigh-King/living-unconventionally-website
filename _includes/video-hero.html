@@ -1,5 +1,12 @@
-<div class="col-12 youtube-video centered">
-  <iframe src="{{item.embed-youtube-video}}&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
-  <!-- {{item.embed-youtube-video}} -->
-</div>
+<section class="youtube-video grid-middle"> 
+  <div class=" centered video-text col-12">
+    <h1 class=" centered "> {{item.heading}}</h1>
+    <h3>{{item.subheading}}</h3>
+  </div>
+  <div class="video-background">
+    <iframe src="{{item.embed-youtube-video}}&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" allowfullscreen> 
+    </iframe>
+  </div>
+</section>
+
   

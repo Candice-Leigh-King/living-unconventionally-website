@@ -26,9 +26,12 @@ END */
     box-sizing: border-box;
   }
 
-  html {
+  html 
+  {
     scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
+    overflow-x: hidden;
   }
+
 
   img {
     max-width: 100%; /* this ensures images never break their container */
@@ -265,6 +268,12 @@ END */
     color: #2F3E39;
   }
 
+  .youtube-video h3 
+  {
+    color: #E8EFEB;
+    text-shadow: 4px 4px 5px rgb(0 0 0 / 50%)
+  }
+
    .grid-grid .iconify
    {
     font-size: 5rem;
@@ -484,14 +493,32 @@ END */
 
   .youtube-video 
   {
-  margin-bottom: -2.9rem;
-  margin-top: -3.5rem;
+  margin-bottom: -3rem;
+  }
+
+
+
+  .video-text 
+  {
+    position: relative;
+    top: 40vh;
+    z-index: 1;
   }
 
   .youtube-video iframe 
   {
   min-width: 100vw;
   min-height: 100vh;
+
+  }
+
+  .video-background
+  {
+    position: relative;
+    top: 0rem;
+    margin-top: -15.8rem;
+    z-index: -1;
+    
   
   }
 
