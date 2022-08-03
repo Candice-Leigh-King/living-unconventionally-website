@@ -550,15 +550,6 @@ END */
   display: inline !important;
 }
 
-.shopify-buy-button-styles {
-  background-color: #B9C5B9;
-    border: 2px solid #B9C5B9;
-    padding: .8rem 3.2rem .6rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    }
-
   .product-icons 
   {
    font-size: 2.5rem; 
@@ -822,6 +813,7 @@ input:focus, textarea:focus
     font-size: 1.2rem;
     padding-bottom: 5%;
   }
+  
 
   .product-price 
   {font-size: 1.2rem;}
@@ -908,6 +900,8 @@ input:focus, textarea:focus
   .signup-banner h4 {font-size: 2.6rem;}
 
   .contact p { font-size: 1rem;}
+
+  .margin-top {margin-top: 16.8%;}
 
 
   .quote p 
