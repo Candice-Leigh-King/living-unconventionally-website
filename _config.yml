@@ -140,5 +140,11 @@ _array_structures:
           input-2:
           input-3:
           textarea_html: 
+      - label: Youtube Library
+        icon: code
+        value: 
+        _section-type: youtube-library
+        embed-youtube-video-here:
+
 
            

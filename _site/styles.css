@@ -496,6 +496,12 @@ END */
   margin-bottom: -3rem;
   }
 
+  .embed-youtube iframe 
+  {
+    width: 100%;
+    min-height: 80vh;
+  }
+
 
 
   .video-text 
@@ -866,6 +872,9 @@ input:focus, textarea:focus
  .scrapbook .padded-left {padding: 0% !important;}
  .scrapbook .padded-right {padding: 0% !important;}
 
+ 
+
+
  .bump-right {margin-right: -11rem;}
  .bump-down {margin-bottom: -1rem;}
  .bump-left { margin-right: 10rem;}
@@ -954,6 +963,13 @@ input:focus, textarea:focus
   .blog-masonry {columns: 1;}
 
   .scrapbook h5 {font-size: 2rem;}
+
+  .embed-youtube iframe 
+  {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+  }
 
   /* CONTACT */
   .split-bg {background:linear-gradient(0deg,#e8efeb 61%,#748672 40%)}
