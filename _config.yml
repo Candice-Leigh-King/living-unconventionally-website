@@ -143,8 +143,8 @@ _array_structures:
       - label: Youtube Library
         icon: code
         value: 
-        _section-type: youtube-library
-        embed-youtube-video-here:
+          _section-type: youtube-library
+          embed-youtube-video-here:
 
 
            
