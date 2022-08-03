@@ -75,9 +75,11 @@ END */
    .lighter-bg {background-color: #B9C5B9;}
    .white-bg {background-color: #FFF;}
    .transparent-bg {background-color: transparent;}
-  .split-bg { background: linear-gradient(-90deg,#e8efeb 73%,#748672 18%);}
+   .split-bg { background: linear-gradient(-90deg,#e8efeb 73%,#748672 18%);}
    .border {border: #B9C5B9 solid 2.2px;}
    .radius {border-radius: 100px;}
+
+   .hidden {display: none;}
 
    .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
