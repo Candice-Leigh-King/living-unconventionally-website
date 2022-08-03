@@ -220,6 +220,8 @@ END */
     font-size: 3rem;
   }
 
+  .success h1 
+  {color: #2F3E39;}
   /* .hero h6 {color: #2F3E39;} */
   .quote p 
   {
