@@ -296,6 +296,9 @@ END */
     margin-bottom: 0.8rem;
    }
 
+   .success a {color: #748672;}
+   .success a:hover {color: white;}
+
    header a,
    footer a,
    nav a
