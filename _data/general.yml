@@ -5,11 +5,11 @@ basics:
   email-address: cassidy@living-unconventionally.com
   browser-tag_image: /favicon.ico
 socials:
-  instagram-link: https://www.instagram.com/our.whereabouts/
+  instagram-link: https://www.instagram.com/livingunconventionally/
   instagram-icon: <span class="iconify" data-icon="foundation:social-instagram"></span>
-  facebook-link: https://www.pinterest.com/ourwhereabouts/
-  facebook-icon:  <span class="iconify" data-icon="bxl:facebook"></span>
-  youtube-link: https://www.pinterest.com/ourwhereabouts/
+  facebook-link: https://www.facebook.com/LivingUnconventionally2020
+  facebook-icon: <span class="iconify" data-icon="bxl:facebook"></span>
+  youtube-link: https://www.youtube.com/c/LivingUnconventionally
   youtube-icon: <span class="iconify" data-icon="fa:youtube"></span>
-  tiktok-link: https://www.tiktok.com/@our.whereabouts
+  tiktok-link: https://www.tiktok.com/@livingunconventionally
   tiktok-icon: <span class="iconify" data-icon="akar-icons:tiktok-fill"></span>
