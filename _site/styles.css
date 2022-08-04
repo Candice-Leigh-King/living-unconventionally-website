@@ -507,9 +507,9 @@ END */
     break-inside: avoid-column;
     }
 
- 
-  .youtube-video {
-      margin-bottom: 47rem;
+  .youtube-video 
+  {
+  margin-bottom: -3rem;
   }
 
   .embed-youtube iframe 
@@ -520,7 +520,7 @@ END */
 
   .video-text 
   {
-    position: absolute;
+    position: relative;
     top: 40vh;
     z-index: 1;
   }
