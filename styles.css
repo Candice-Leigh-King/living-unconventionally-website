@@ -395,7 +395,11 @@ END */
 
 .mobile-menu .iconify {font-size: 1.3rem;}
 
-.mobile-menu a {color: #FDFAF0;}
+.mobile-menu a 
+{
+  color: #FDFAF0;
+  font-size: 0.9rem;
+}
 
 .cross 
 {
