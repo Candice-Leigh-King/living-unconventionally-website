@@ -529,7 +529,7 @@ END */
 
   .youtube-video iframe 
   {
-  min-width: 115vw;
+  min-width: 100vw;
   min-height: 115vh;
   background-position: center;
 
