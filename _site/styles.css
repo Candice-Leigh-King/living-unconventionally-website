@@ -507,9 +507,9 @@ END */
     break-inside: avoid-column;
     }
 
-  .youtube-video 
-  {
-  margin-bottom: -3rem;
+ 
+  .youtube-video {
+      margin-bottom: 47rem;
   }
 
   .embed-youtube iframe 
@@ -518,11 +518,9 @@ END */
     min-height: 80vh;
   }
 
-
-
   .video-text 
   {
-    position: relative;
+    position: absolute;
     top: 40vh;
     z-index: 1;
   }
@@ -883,7 +881,7 @@ input:focus, textarea:focus
  {
   font-size: 3rem;
   text-shadow: 4px 4px 5px rgb(0 0 0 / 50%)
-  }
+}
 
  .hero h1 {font-size: 3rem;}
 
