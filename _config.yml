@@ -1,9 +1,26 @@
+defaults:
+  -
+    scope:
+      path: "/products"
+      type: "pages"
+    values:
+      layout: "products"
+  -
+    scope:
+      path: "affiliates"
+      type: "pages" 
+    values:
+      layout: "affiliates" # overrides previous default layout
+
 categories:
 - destinations
 - tips
 
 collections:
  products:
+   enabled: true
+   output: true
+ affiliates:
    enabled: true
    output: true
 
