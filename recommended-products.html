@@ -11,8 +11,8 @@ heading: Our Favorite Gear
 ---
 
 <div class="grid-center padded-1 all-products ">
-    {% assign recommended_products = site.products | where: 'recommended_products', true %}
-    {% for shop in recommended_products %}
+    {% assign recommended_affiliates = site.affiliates | where: 'recommended_affiliates', true %}
+    {% for shop in recommended_affiliates %}
     <a class="col-4_sm-4_xs-12 padded" href="{{shop.url}}">
       <div class="card stat-cards border centered transparent-bg">
         <img src="{{shop.product-image}}" alt="{{shop.product-image-alt}}">
