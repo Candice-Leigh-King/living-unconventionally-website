@@ -42,6 +42,7 @@ END */
     font-family: 'Noto Sans HK', sans-serif;
     color: #171F18;
     background-color: #E8EFEB;
+    overflow-x: hidden;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
