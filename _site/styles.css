@@ -510,7 +510,7 @@ END */
 
   .youtube-video 
   {
-  margin-bottom: -3rem;
+  margin-bottom: -1.5rem;
   }
 
   .embed-youtube iframe 
@@ -535,12 +535,20 @@ END */
 
   .video-background
   {
-    position: relative;
-    top: 0rem;
-    margin-top: -15.8rem;
-    z-index: -1;
-    
+  position: relative;
+  top: 0rem;
+  margin-top: -15.8rem;
+  z-index: -1;
   
+ 
+
+  }
+
+  video 
+  {
+    height: 100%;
+    width: 100vw;
+    object-fit: fill;
   }
 
   .box-shadow
@@ -862,6 +870,17 @@ input:focus, textarea:focus
   .grid-grid  .iconify
   {
    font-size: 3.5rem;
+  }
+
+  video 
+  {
+  height: 100vh;
+  width: auto;
+  }
+
+  .youtube-video 
+  {
+  margin-bottom: -1rem;
   }
 
   .built .padded-right {padding: 0% !important;}
