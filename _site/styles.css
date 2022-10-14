@@ -547,6 +547,25 @@ END */
 
   .cute-icon {max-width: 13rem;}
 
+  /* MEDIA KIT  */
+
+  .media-kit-radius {border-radius: 500px 500px 0 0;}
+
+  .media-kit-button
+    {
+    background-color: #748672;
+    border: 2px solid #748672;
+    padding: .8rem 3.2rem .6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+  .media-kit-button:hover
+    {
+    background-color: transparent;
+    }
+
   /* ALL THINGS SHOP */
   
   .affiliate-product-page h2 {font-size: 3rem;}
