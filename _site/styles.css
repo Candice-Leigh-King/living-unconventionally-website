@@ -1002,7 +1002,11 @@ input:focus, textarea:focus
 
   .margin-top {margin-top: 16.8%;}
 
-
+  .media-kit-button
+  {
+  padding: . .3rem 0.5rem .3rem;
+  }
+  
   .quote p 
   { font-size: 2rem;}  
 
