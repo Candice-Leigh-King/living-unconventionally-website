@@ -132,6 +132,7 @@ _array_structures:
         value: 
          _section-type: basic-sign-up
          form-heading:
+         form-text-area:
       - label: Text Block with Icon 
         icon: rtt
         value: 
@@ -149,6 +150,7 @@ _array_structures:
          heading:
          image:
          form-heading:
+         form-text-area:
       - label: Form
         icon: email
         value:
