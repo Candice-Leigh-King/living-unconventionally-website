@@ -6,10 +6,10 @@ basics:
   browser-tag_image: /favicon.ico
 socials:
   instagram-link: https://www.instagram.com/livingunconventionally/
-  instagram-icon: <span class="iconify" data-icon="foundation:social-instagram"></span>
+  instagram-icon: <iconify-icon icon="foundation:social-instagram"></iconify-icon>
   facebook-link: https://www.facebook.com/LivingUnconventionally2020
-  facebook-icon: <span class="iconify" data-icon="bxl:facebook"></span>
+  facebook-icon: <iconify-icon icon="dashicons:facebook-alt"></iconify-icon>
   youtube-link: https://www.youtube.com/c/LivingUnconventionally
-  youtube-icon: <span class="iconify" data-icon="fa:youtube"></span>
+  youtube-icon: <iconify-icon icon="fa:youtube"></iconify-icon>
   tiktok-link: https://www.tiktok.com/@livingunconventionally
-  tiktok-icon: <span class="iconify" data-icon="akar-icons:tiktok-fill"></span>
+  tiktok-icon: <iconify-icon icon="cib:tiktok"></iconify-icon>
