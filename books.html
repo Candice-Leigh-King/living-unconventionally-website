@@ -25,8 +25,8 @@ heading: Books
       </div>
     </a>
     {% endfor %}
-    {% assign ebooks_affiliates = site.affiliates | where: 'ebooks_affiliates', true %}
-    {% for shop in ebooks_affiliates %}
+    {% assign books_affiliates = site.affiliates | where: 'books_affiliates', true %}
+    {% for shop in books_affiliates %}
     <a class="col-4_sm-4_xs-12 padded" href="{{shop.url}}">
       <div class="card stat-cards border centered transparent-bg">
         <img src="{{shop.product-image}}" alt="{{shop.product-image-alt}}">
