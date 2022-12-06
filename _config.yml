@@ -70,7 +70,7 @@ _array_structures:
           _section-type: video-hero
           heading: 
           subheading: 
-          video: 
+          video-image: 
           poster-image:
       - label: Read More Grid
         icon: grid_view 
