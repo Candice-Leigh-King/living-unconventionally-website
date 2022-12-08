@@ -686,6 +686,7 @@ END */
     margin: 0;
     width: 100%;
     border: none;
+    border-radius: 0px;
     border-bottom: 2px solid #748672;
     transition: all .5s;
     padding: .7rem 0 .5rem;
