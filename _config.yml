@@ -130,7 +130,7 @@ _array_structures:
           heading:
           textarea_html:
       - label: Script
-        icon: forum
+        icon: code
         value:
           _section-type: script
           insert-script-here: 
