@@ -20,9 +20,11 @@ collections:
  products:
    enabled: true
    output: true
+   icon: shopping_cart
  affiliates:
    enabled: true
    output: true
+   icon: monetization_on
 
 page_blocks: []
 _array_structures:
