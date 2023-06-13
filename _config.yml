@@ -128,7 +128,12 @@ _array_structures:
         value: 
           _section-type: basic-text-block
           heading:
-          textarea_html: 
+          textarea_html:
+      - label: Script
+        icon: forum
+        value:
+          _section-type: script
+          insert-script-here: 
       - label: Basic Sign Up
         icon: contact_mail
         value: 
