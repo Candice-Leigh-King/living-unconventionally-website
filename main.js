@@ -49,7 +49,7 @@ function showModal() {
   modal.style.display = "block";
 }
 
-setTimeout(showModal, 1000); // Delay in milliseconds (5 seconds)
+setTimeout(showModal, 1500); // Delay in milliseconds (5 seconds)
 
 // Hide the modal when close button is clicked
 closeButton.onclick = function () {
