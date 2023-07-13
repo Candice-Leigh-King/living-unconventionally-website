@@ -180,8 +180,8 @@ _array_structures:
           image: /uploads/worldschooling-map-mock-up.jpg
           heading: SALE!
           product-name: WorldSchooling Map
-          price: $20
-          discounted-price: $30
+          price: $25
+          discounted-price: $50
           product-description-summery: >- 
           This interactive map showcases a curated selection of WorldSchooling Hubs.
           product-rating: 
