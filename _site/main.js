@@ -38,6 +38,32 @@ $(document).ready(function() {
 
 	window.addEventListener("scroll", reveal);
 
+	// Get the modal element
+var modal = document.getElementById("myModal");
+
+// Get the close button
+var closeButton = document.getElementsByClassName("close")[0];
+
+// Show the modal after a delay of 5 seconds
+function showModal() {
+  modal.style.display = "block";
+}
+
+setTimeout(showModal, 1000); // Delay in milliseconds (5 seconds)
+
+// Hide the modal when close button is clicked
+closeButton.onclick = function () {
+  modal.style.display = "none";
+}
+
+// Hide the modal when clicked outside the modal
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
 // 			if (window.inEditorMode) {
 //   alert('Inside CloudCannon!');
 // } else {

@@ -74,6 +74,7 @@ END */
    .border-left {border-left: #171F18 1px solid;}
 
    .dark-bg      {  background-color: #2F3E39;     }
+   /* .light-bg-trans {background-color: #e8efeb8a;} */
    .light-bg     {  background-color: #748672;  }
    .body-bg  {  background-color: #E8EFEB;       }
    .lighter-bg {background-color: #B9C5B9;}
@@ -813,7 +814,55 @@ input:focus, textarea:focus
   background-position: center;
   }
 
+  /* POPUP */
+
+  .modal { display: none;}
+
+  
+  .popup 
+  {
+  position: fixed;
+  z-index: 100;
+  top: 4rem;
+  }
+
+  .sale-heading h4 
+  {
+    color: #9b4851;
+    font-size: 3.2rem;
+    font-weight: bold;
+  }
+
+  .sale-heading h5 
+  {
+    font-size: 2.8rem;
+  }
+
+  .sale-button 
+  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    background-color: #9b4851;
+    color: white;
+    padding: .8rem 3.2rem .6rem;
+    margin-bottom: 5% !important;
+  }
+
+  .sale-button:hover
+  {
+    background-color: #748672;
+  }
+
 .scrapbook img {max-height: 525px;}  
+
+  .bump-up
+  {
+    margin-top: -2.5rem;
+    z-index: 1;
+    position: relative;
+  }
+
+  
 
   .bump-down 
   {
@@ -974,6 +1023,20 @@ input:focus, textarea:focus
 
 @media(max-width:576px)
 {
+
+  .sale-button
+  {
+    font-size: 1rem;
+  }
+
+  .sale-heading h4 
+  {
+    font-size: 2.6rem;
+  }
+  .sale-heading h5 
+  {
+    font-size: 2.1rem;
+  }
 
   .padded-grid
   {

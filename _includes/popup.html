@@ -1,0 +1,27 @@
+
+<section id="content-blocks-{{forloop.index0}}">
+    <section class="grid-center popup">
+        <div id="myModal" class="modal padded-2 light-bg-trans col-4_sm-6_xs-12">
+        <div class="modal-content">
+            <p class="cross close col-12 right centered">
+                <span class="material-icons white-bg radius">
+                highlight_off
+                </span>
+            </p>
+            <a class=" grid-center white-bg box-shadow " href="{{item.url}}">
+                <div class=" stat-cards centered transparent-bg">
+                    <img src="{{item.image}}" alt="{{item.image-alt}}">
+                    <div class="padded-1 grid-center sale-heading">
+                    <h4 class="col-12">{{item.heading}}</h4>
+                        <p class="product-price col-12"> {{item.price}} <span class="compare-at-price">{{item.discounted-price}} </span> </p>
+                    <h5 class="col-12">{{item.product-name}}</h5>
+                    <p>{{item.product-description-summery}}</p>
+                    <p class="stars">{{item.product-rating}}</p>
+                    <p class="sale-button">{{item.button}}</p>
+                    </div>
+                </div>
+            </a>  
+        </div>
+        </div> 
+    </section>   
+</section>

@@ -173,6 +173,20 @@ _array_structures:
         value: 
           _section-type: youtube-library
           embed-youtube-video-here:
+      - label: Popup
+        icon: rocket_launch
+        value:
+          _section-type: popup
+          image: /uploads/worldschooling-map-mock-up.jpg
+          heading: SALE!
+          product-name: WorldSchooling Map
+          price: $20
+          discounted-price: $30
+          product-description-summery: >- 
+          This interactive map showcases a curated selection of WorldSchooling Hubs.
+          product-rating: 
+          button: Ooh! Tell me more!
+          url: /products/the-worldschooling-map
 
 
            
