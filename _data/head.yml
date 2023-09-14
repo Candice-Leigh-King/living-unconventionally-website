@@ -19,7 +19,7 @@ first-script-to-go-in-the-head: >-
     sn.src = h + s + '.js' + v;
     f.parentNode.insertBefore(sn, f);
   })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
-</script>
+  </script>
 second-script-to-go-in-the-head:
 third-script-to-go-in-the-head:
 
