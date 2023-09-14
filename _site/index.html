@@ -40,6 +40,28 @@
         <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
+        <script> (function(w, d, t, h, s, n) {
+  w.FlodeskObject = n;
+  var fn = function() {
+    (w[n].q = w[n].q || []).push(arguments);
+  };
+  w[n] = w[n] || fn;
+  var f = d.getElementsByTagName(t)[0];
+  var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+  var sm = d.createElement(t);
+  sm.async = true;
+  sm.type = 'module';
+  sm.src = h + s + '.mjs' + v;
+  f.parentNode.insertBefore(sm, f);
+  var sn = d.createElement(t);
+  sn.async = true;
+  sn.noModule = true;
+  sn.src = h + s + '.js' + v;
+  f.parentNode.insertBefore(sn, f);
+})(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd'); </script>
+        
+        
+
 
         <!-- Viewport meta tag -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -311,18 +333,31 @@
          
          <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[5]">
              <span class="cms-editor-button"></span>
-           
-<section id="content-blocks-5">
-  <section class="grid-center padded-sides light-bg">
-    <div class="col-12">
-      <div id="fd-form-649db06da56d8d7685cc45a0" class="light-bg"></div> <script>
-  window.fd('form', {
-    formId: '649db06da56d8d7685cc45a0',
-    containerEl: '#fd-form-649db06da56d8d7685cc45a0'
-  });
-</script>
+           <section class="grid social-media-icons padded-sides padded-bottom">
+    <div class="col-5_xs-12 grid-center">
+        <div class="col-6 padded centered ">
+            <a class="radius  " href="https://www.instagram.com/livingunconventionally/ "><iconify-icon icon="foundation:social-instagram"></iconify-icon></a>
+        </div>
+        <div class="col-6 padded  centered">
+            <a class=" radius"href="https://www.facebook.com/LivingUnconventionally2020 "><iconify-icon icon="dashicons:facebook-alt"></iconify-icon></a>
+        </div>
+        <div class="col-6 padded  centered">
+            <a class=" radius" href="https://www.youtube.com/c/LivingUnconventionally"><iconify-icon icon="fa:youtube"></iconify-icon></a>
+        </div>
+        <div class="col-6 padded centered">
+            <a class=" radius"href="https://www.tiktok.com/@livingunconventionally "><iconify-icon icon="cib:tiktok"></iconify-icon></a>
+        </div>
     </div>
-  </section>
+    <div class="col-6_xs-12 grid white-bg centered padded box-shadow grid">
+        <h4 class="centered col-12 padded"></h4>
+        <div><div id="fd-form-649db06da56d8d7685cc45a0"></div>
+        <script>
+          window.fd('form', {
+            formId: '649db06da56d8d7685cc45a0',
+            containerEl: '#fd-form-649db06da56d8d7685cc45a0'
+          });
+        </script></div>
+    </div>
 </section>
 
          
