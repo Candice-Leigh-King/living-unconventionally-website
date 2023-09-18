@@ -61,7 +61,7 @@ END */
    .padded-grid {padding: 25% 0% 25% 0% !important;}
    .padded-bottom {padding-bottom: 5% !important;}
    .padded-top {padding-top: 5% !important;}
-   .padded-sides {padding-left: 5%; padding-right: 5% !important;}
+   .padded-sides {padding-left: 5% !important; padding-right: 5% !important;}
    .padded-left {padding-left: 5% !important;}
    .padded-right {padding-right: 5% !important;}
 
